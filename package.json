@@ -1,0 +1,7 @@
+{
+  "name": "sidebar-ext-test",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "web-ext": "^8.2.0"
+  }
+}

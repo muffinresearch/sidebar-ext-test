@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="panel.css"/>
+  </head>
+  <body>
+    <h1>SetPanel</h1>
+
+    <p>This panel was opened via <code>setPanel()</code></p>
+
+    <p>It's possible to open this programmatically by calling
+    <code>browser.sidebarAction.open()</code> after <code>setPanel()</code>
+    in a non-async handler for the context menu click event.<p>
+
+    <p>This works as it's considered a <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/User_actions" target="_blank">User Action</a>, whereas in an async function this would not.</p>
+  </body>
+</html>
